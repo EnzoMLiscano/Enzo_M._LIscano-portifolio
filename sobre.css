@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Tulpen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Tulpen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=IBM+Plex+Sans+JP&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&family=Funnel+Sans:ital,wght@0,300..800;1,300..800&family=IBM+Plex+Sans+JP&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+   
+    box-sizing: border-box;
+    background-color: #363636;
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_sobre{
+    margin: 2% 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+
+}
+
+.conteudo_sobre{
+    display: flex;
+    flex-direction: column;
+    margin: 0% 3%;
+    font-family: "Funnel Sans", serif;
+    font-size: 22px;
+    gap: 12px;
+    
+}
+
+.titulo_sobre{
+    font-family: "Montserrat", serif;
+    display: flex;
+    font-size: 100px;
+
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Tulpen One", serif;
+    background-color: navy;
+    color: var(--cor-princ-text);
+    padding: 1% 6%;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    font-family: "Montserrat", serif;
+    font-size: 1.5625rem;
+    gap: 1.2500rem;
+    
+}
+
+.nome{
+    font-family: "Kadam Thmor pro", serif;
+    font-size: 2.1250rem;
+    letter-spacing: 0.3000rem;
+    color:  #ffffff;
+    text-decoration: none;
+}
+
+.links_cabecalho{
+    color:  #ffffff;
+    text-decoration:none;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    width: 10.6250rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1px;
+    gap: 5px;
+    border-style:solid;
+    justify-content: center;
+}
+
+.imgredes{
+    width: 85%;
+    margin-left: 2.5px;
+    margin-top: 3px; 
+}
+
+.botao{
+    width: 85%;
+}
+
+.siga{
+    font-family: "Montserrat", serif;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 3%;
+}
+
+.edicoes{
+    background-color: #000000;
+    font-family: "Montserrat", serif;
+    margin-bottom: 3%;
+    margin-top: 2%;
+    justify-items: center;
+    border-style: solid;
+    border-radius: 20px;
+    border-top: #363636;
+    border-bottom: #363636;
+    border-color: blue;
+}
+.tituloedicoes{
+    color: #ffffff;
+    margin-top: 2%;
+}
+
+.videos{
+    margin-top: 2%;
+    margin-bottom: 1%;
+    width: 560px;
+    height: 315px;
+
+}
+
+.initial{
+    background-color: #000000;
+    display: flex;
+    border-style: solid;
+    border-radius: 20px;
+    border-top: #000000;
+    border-bottom: #000000;
+    border-color: red;
+}
+
+.imagensinitial{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1px;
+    margin-bottom: 1%;
+}
+.imagensd{
+    display: flex;
+    width: 45%;
+    
+
+}
+
+.spotify{
+    margin-top: 1%;
+    margin-right: 2%;
+    
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    background-color: black;
+    color: #ffffff;
+    padding: 1% 6%;
+
+}
+
+.informacoes{
+    font-family: "Montserrat", serif;
+    font-size: 20px;
+    font-style: normal;
+    text-align: right;
+    display: flex;
+
+}
+
+.rodapet{
+    font-family: "Kadam Thmor pro", serif;
+    font-size: 34px;
+}
+
+
+
+
+
+
+@media (max-width: 685px) {
+    .cabecalho{
+        flex-direction: column;
+        text-align: center;
+    }
+    .main_sobre{
+        flex-direction: column;
+        
+    }
+    .conteudo_sobre{
+        width: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0%;
+        
+    }
+    .titulo_sobre{
+        width: auto;
+        text-align: center;
+        font-size: 80px;
+    }
+    .redes{
+        width: 50%;
+    }
+    .edicoes{
+        width: auto;
+    }
+    .videos{
+        width: 350px;
+        height: 250px;
+    }
+    .rodape{
+        flex-direction: column;
+    }
+    .informacoes{
+        text-align: center;
+        margin-top: 2%;
+    }
+}

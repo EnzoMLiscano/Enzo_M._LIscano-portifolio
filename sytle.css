@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Tulpen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Tulpen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+   
+    box-sizing: border-box;
+    background-color: #363636;
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_flexcont{
+    margin: 2% 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+}
+
+.conteudo_inicial{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.textos1{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    margin: 2% 0%;
+    gap: 30px;
+}
+
+.forza{
+    width: 45%;
+    height: auto;
+    border-radius: 20px;
+}
+
+
+.titulo_principal{
+    font-size: 70px;
+    font-family: "Kadam Thmor pro", serif;
+    font: 400;
+    font-style: normal;
+
+}
+
+.introducao{
+    font-size: 20px;
+    font-family: "Poppins", serif;
+    font: 400;
+    font-style: normal;
+}
+
+.link_botao_sobre{
+    background-color: #1E33B9;
+    width: 110px;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Montserrat", serif;
+    font-weight: 900;
+    font-style: normal;
+    text-decoration:none;
+    color: aliceblue;
+    border-radius: 100px;
+    padding: 10px;
+}
+
+.fordgt{
+    width: 50%;
+    height: auto;
+    border-radius: 20px;
+    margin: 2%;
+}
+
+.conteudo_ford{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 4% 0%;
+    gap: 23px;
+    font-family: "Poppins", serif;
+    font-size: 17px;
+}
+
+.carro_que_enzo_mais_gosta{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sonho_de_enzo{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.sonho{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 2% 0%;
+    gap: 20px;
+    font-family: "Poppins", serif;
+    font-size: 17px;
+}
+
+.pc{
+    width: 45%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    font-family: "Tulpen One", serif;
+    background-color: navy;
+    color: var(--cor-princ-text);
+    padding: 1% 6%;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    font-family: "Montserrat", serif;
+    font-size: 1.5625rem;
+    gap: 1.2500rem;
+    
+}
+
+.nome{
+    font-family: "Kadam Thmor pro", serif;
+    font-size: 2.1250rem;
+    letter-spacing: 0.3000rem;
+    color:  #ffffff;
+    text-decoration: none;
+}
+
+.links_cabecalho{
+    color:  #ffffff;
+    text-decoration:none;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    width: 10.6250rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1px;
+    gap: 5px;
+    border-style:solid;
+    justify-content: center;
+}
+
+.imgredes{
+    width: 85%;
+    margin-left: 2.5px;
+    margin-top: 3px; 
+}
+
+.botao{
+    width: 85%;
+}
+
+.siga{
+    font-family: "Montserrat", serif;
+    font-size: 20px;
+}
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+    background-color: black;
+    color: #ffffff;
+    padding: 1% 6%;
+
+}
+
+.informacoes{
+    font-family: "Montserrat", serif;
+    font-size: 20px;
+    font-style: normal;
+    text-align: right;
+    display: flex;
+
+}
+
+.rodapet{
+    font-family: "Kadam Thmor pro", serif;
+    font-size: 34px;
+}
+
+@media (max-width: 1766px){
+    .main_flexcont{
+        flex-direction: column;
+    }
+    .conteudo_inicial{
+        width: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .forza{
+        width: 100%;
+    }
+    .titulo_principal{
+        font-size: 50px;
+    }
+    .textos1{
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        text-align: center;
+    }
+    .cabecalho{
+        flex-direction: column;
+        text-align: center;
+    }
+    .carro_que_enzo_mais_gosta{
+        width: auto;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .conteudo_ford{
+        width: auto;
+        text-align: center;
+    }
+    .fordgt{
+        width: 100%;
+    }
+    .sonho_de_enzo{
+        width: auto;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sonho{
+        width: auto;
+        text-align: center;
+    }
+    .pc{
+        width: 100%;
+    }
+    .redes{
+        width: 80%;
+        margin-left: 9%;
+        
+    }
+    .rodape{
+        flex-direction: column;
+    }
+    .informacoes{
+        text-align: center;
+        margin-top: 2%;
+    }
+}
