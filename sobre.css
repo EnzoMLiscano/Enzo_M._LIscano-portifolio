@@ -181,10 +181,6 @@ body{
 }
 
 
-
-
-
-
 @media (max-width: 685px) {
     .cabecalho{
         flex-direction: column;
@@ -207,8 +203,21 @@ body{
         text-align: center;
         font-size: 80px;
     }
+    .tituloedicoes{
+        text-align: center;
+    }
+    .siga{
+        margin-bottom: 3%;
+        display: flex;
+        justify-content: center;
+    }
     .redes{
-        width: 50%;
+        width: 55%;
+        display: flex;
+        justify-self: center;
+        margin-bottom: 2%;
+
+        
     }
     .edicoes{
         width: auto;
@@ -228,3 +237,48 @@ body{
         flex-direction: column;
     }
 }
+
+@media (max-width: 668px){
+    .videos{
+        display: flex;
+
+    }
+    .siga{
+        margin-bottom: 3%;
+        display: flex;
+        justify-content: center;
+    }
+    .redes{
+        width: 34%;
+        display: flex;
+        justify-self: center;
+        margin-bottom: 2%;
+
+        
+    } 
+}
+
+
+
+
+@media (max-width: 550px) {
+    .siga{
+        margin-bottom: 3%;
+        display: flex;
+        justify-content: center;
+    }
+    .redes{
+        width: 44%;
+        display: flex;
+        justify-self: center;
+        margin-bottom: 2%;
+    }
+    .texto{
+        font-size: 20px;
+    }
+
+}
+
+
+
+
