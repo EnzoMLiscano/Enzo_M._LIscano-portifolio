@@ -173,6 +173,7 @@ body{
 .siga{
     font-family: "Montserrat", serif;
     font-size: 20px;
+    
 }
 .rodape{
     display: flex;
@@ -197,6 +198,8 @@ body{
     font-family: "Kadam Thmor pro", serif;
     font-size: 34px;
 }
+
+
 
 @media (max-width: 1766px){
     .main_flexcont{
@@ -251,9 +254,18 @@ body{
     .pc{
         width: 100%;
     }
+    .siga{
+        margin-top: 5%;
+        margin-bottom: 3%;
+        display: flex;
+        justify-content: center;
+    }
     .redes{
-        width: 80%;
-        margin-left: 9%;
+        width: 55%;
+        display: flex;
+        align-self: center;
+        margin-bottom: 2%;
+
         
     }
     .rodape{
@@ -262,5 +274,32 @@ body{
     .informacoes{
         text-align: center;
         margin-top: 2%;
+    }
+}
+
+@media (max-width: 1000px){
+    .siga{
+        margin-bottom: 3%;
+        display: flex;
+        justify-content: center;
+    }
+    .redes{
+        width: 54%;
+        display: flex;
+        justify-self: center;
+        margin-bottom: 2%;
+
+    } 
+    .forza{
+        width: 90%;
+    }
+    .fordgt{
+        width: 90%;
+    }
+    .pc{
+        width: 90%;
+    }
+    .introducao{
+        font-size: 17px;
     }
 }
